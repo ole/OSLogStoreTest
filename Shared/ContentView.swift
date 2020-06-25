@@ -37,7 +37,7 @@ struct ContentView: View {
     }
     .onChange(of: counter) { value in
       // Log counter value every time it changes
-      Self.logger.error("counter=\(counter)")
+      Self.logger.notice("counter=\(counter)")
     }
   }
 }
