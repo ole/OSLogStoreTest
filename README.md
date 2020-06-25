@@ -7,7 +7,10 @@ Test app for evaluating if apps can access their own OSLog logs via [`OSLogStore
 I can’t get it to work on an iOS device running iOS 14.0 beta 1. I can instantiate an `OSLogStore` and `OSLogEnumerator`, but the enumerator doesn’t provide any log entries (unless I’m holding it wrong), and I’m seeing this error message in the Xcode console:
 
 ```
-Error Error Domain=NSCocoaErrorDomain Code=4099 "The connection to service on pid 0 named com.apple.OSLogService was invalidated." UserInfo={NSDebugDescription=The connection to service on pid 0 named com.apple.OSLogService was invalidated.}
+Error Error Domain=NSCocoaErrorDomain Code=4099
+"The connection to service on pid 0 named com.apple.OSLogService
+was invalidated." UserInfo={NSDebugDescription=The connection to
+service on pid 0 named com.apple.OSLogService was invalidated.}
 ```
 
 ## macOS 11.0 Big Sur
