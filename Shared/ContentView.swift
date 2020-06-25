@@ -2,7 +2,7 @@ import OSLog
 import SwiftUI
 
 struct ContentView: View {
-  static let logger = Logger(subsystem: "ContentView", category: "counter")
+  static let logger = Logger(subsystem: "net.oleb.OSLogStoreTest", category: "counter")
 
   @State private var counter: Int = 0
 
