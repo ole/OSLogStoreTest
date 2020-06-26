@@ -20,7 +20,7 @@
   NSLog(@"enumerator: %@", enumerator);
 
   NSLog(@"Start enumerating log entries");
-  for (id entry in enumerator) {
+  for (OSLogEntry *entry in enumerator) {
     NSLog(@"Log entry: %@", entry);
   }
 }
