@@ -13,6 +13,16 @@ was invalidated." UserInfo={NSDebugDescription=The connection to
 service on pid 0 named com.apple.OSLogService was invalidated.}
 ```
 
+Apple engineers have confirmed this is a bug. I hope it will get fixed before the final iOS 14 release.
+
+* [Tweet by Brandon Titus](https://twitter.com/bjtitus/status/1276211162506424323)
+* [Tweet by Quinn “The Eskimo!”](https://twitter.com/justkwin/status/1276271590360199172)
+
 ## macOS 11.0 Big Sur
 
-I haven’t got a Big Sur machine yet. If you have one, please clone the repository and build and run it in Xcode 12 on macOS 11. I’d love to know if it works.
+The code works as expected in macOS targets. I can’t test this myself at the moment, but see these reports from others:
+
+* [Tweet by Vuk](https://twitter.com/vukradoo/status/1276206317884059654)
+* [Tweet by danijel](https://twitter.com/cxromos/status/1276207403869130752)
+
+`OSLogEnumerator` produces a sequence of [`OSLogEntry`](https://developer.apple.com/documentation/oslog/oslogentry?language=objc) objects.
