@@ -9,7 +9,7 @@ struct ContentView: View {
   var body: some View {
     VStack {
       VStack {
-        Text("Play with the stepper to generate some OSLog messages")
+        Text("Play with the stepper to generate some OSLog messages:")
         Stepper("Counter: \(counter)", value: $counter, in: 0...100)
           .font(.title)
           .padding([.top, .bottom], 16)
@@ -17,7 +17,7 @@ struct ContentView: View {
       }
       .padding()
       VStack {
-        Text("Then tap the button to attempt to read the logs from OSLogStore")
+        Text("Then tap the button to attempt to read the logs from OSLogStore:")
         Button("Read from OSLogStore") {
           // Attempt to read the logs using OSLogStore
           OSLogStorePrinter.printLogs()
