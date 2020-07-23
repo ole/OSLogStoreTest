@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5DD3A4B024C9800400DB0A7E /* OSLogStorePrinter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD3A4AF24C9800400DB0A7E /* OSLogStorePrinter.swift */; };
+		5DD3A4B124C9800400DB0A7E /* OSLogStorePrinter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD3A4AF24C9800400DB0A7E /* OSLogStorePrinter.swift */; };
 		5DE1726C24A5074000E23B03 /* OSLogStoreTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE1725924A5073E00E23B03 /* OSLogStoreTestApp.swift */; };
 		5DE1726D24A5074000E23B03 /* OSLogStoreTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE1725924A5073E00E23B03 /* OSLogStoreTestApp.swift */; };
 		5DE1726E24A5074000E23B03 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE1725A24A5073E00E23B03 /* ContentView.swift */; };
@@ -18,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5DD3A4AF24C9800400DB0A7E /* OSLogStorePrinter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSLogStorePrinter.swift; sourceTree = "<group>"; };
 		5DE1725924A5073E00E23B03 /* OSLogStoreTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSLogStoreTestApp.swift; sourceTree = "<group>"; };
 		5DE1725A24A5073E00E23B03 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5DE1725B24A5074000E23B03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -67,6 +70,7 @@
 				5DE1725A24A5073E00E23B03 /* ContentView.swift */,
 				5DE1727F24A507A900E23B03 /* OSLogStorePrinter.h */,
 				5DE1728024A507A900E23B03 /* OSLogStorePrinter.m */,
+				5DD3A4AF24C9800400DB0A7E /* OSLogStorePrinter.swift */,
 				5DE1727D24A507A800E23B03 /* iOS-Bridging-Header.h */,
 				5DE1727E24A507A800E23B03 /* macOS-Bridging-Header.h */,
 				5DE1725B24A5074000E23B03 /* Assets.xcassets */,
@@ -202,6 +206,7 @@
 				5DE1728124A507A900E23B03 /* OSLogStorePrinter.m in Sources */,
 				5DE1726E24A5074000E23B03 /* ContentView.swift in Sources */,
 				5DE1726C24A5074000E23B03 /* OSLogStoreTestApp.swift in Sources */,
+				5DD3A4B024C9800400DB0A7E /* OSLogStorePrinter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +217,7 @@
 				5DE1728224A507A900E23B03 /* OSLogStorePrinter.m in Sources */,
 				5DE1726F24A5074000E23B03 /* ContentView.swift in Sources */,
 				5DE1726D24A5074000E23B03 /* OSLogStoreTestApp.swift in Sources */,
+				5DD3A4B124C9800400DB0A7E /* OSLogStorePrinter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

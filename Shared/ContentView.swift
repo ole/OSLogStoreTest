@@ -20,7 +20,10 @@ struct ContentView: View {
         Text("Then tap the button to attempt to read the logs from OSLogStore:")
         Button("Read from OSLogStore") {
           // Attempt to read the logs using OSLogStore
-          OSLogStorePrinter.printLogs()
+          // Obj-C:
+          //OSLogStorePrinter.printLogs()
+          // Swift:
+          printLogEntries()
         }
         .font(.title)
         .padding([.top, .bottom], 16)
