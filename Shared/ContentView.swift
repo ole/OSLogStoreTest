@@ -18,12 +18,8 @@ struct ContentView: View {
       .padding()
       VStack {
         Text("Then tap the button to attempt to read the logs from OSLogStore:")
-        Button("Read from OSLogStore") {
-          // Attempt to read the logs using OSLogStore
-          // Obj-C:
-          //OSLogStorePrinter.printLogs()
-          // Swift:
-          printLogEntries()
+        Button(action: { printLogEntries() }) {
+          Text("Read from OSLogStore")
         }
         .font(.title)
         .padding([.top, .bottom], 16)

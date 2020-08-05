@@ -15,8 +15,6 @@
 		5DE1726F24A5074000E23B03 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE1725A24A5073E00E23B03 /* ContentView.swift */; };
 		5DE1727024A5074000E23B03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DE1725B24A5074000E23B03 /* Assets.xcassets */; };
 		5DE1727124A5074000E23B03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DE1725B24A5074000E23B03 /* Assets.xcassets */; };
-		5DE1728124A507A900E23B03 /* OSLogStorePrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE1728024A507A900E23B03 /* OSLogStorePrinter.m */; };
-		5DE1728224A507A900E23B03 /* OSLogStorePrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE1728024A507A900E23B03 /* OSLogStorePrinter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,10 +27,6 @@
 		5DE1726824A5074000E23B03 /* OSLogStoreTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OSLogStoreTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DE1726A24A5074000E23B03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DE1726B24A5074000E23B03 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
-		5DE1727D24A507A800E23B03 /* iOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS-Bridging-Header.h"; sourceTree = "<group>"; };
-		5DE1727E24A507A800E23B03 /* macOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "macOS-Bridging-Header.h"; sourceTree = "<group>"; };
-		5DE1727F24A507A900E23B03 /* OSLogStorePrinter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSLogStorePrinter.h; sourceTree = "<group>"; };
-		5DE1728024A507A900E23B03 /* OSLogStorePrinter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSLogStorePrinter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,11 +62,7 @@
 			children = (
 				5DE1725924A5073E00E23B03 /* OSLogStoreTestApp.swift */,
 				5DE1725A24A5073E00E23B03 /* ContentView.swift */,
-				5DE1727F24A507A900E23B03 /* OSLogStorePrinter.h */,
-				5DE1728024A507A900E23B03 /* OSLogStorePrinter.m */,
 				5DD3A4AF24C9800400DB0A7E /* OSLogStorePrinter.swift */,
-				5DE1727D24A507A800E23B03 /* iOS-Bridging-Header.h */,
-				5DE1727E24A507A800E23B03 /* macOS-Bridging-Header.h */,
 				5DE1725B24A5074000E23B03 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -203,7 +193,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DE1728124A507A900E23B03 /* OSLogStorePrinter.m in Sources */,
 				5DE1726E24A5074000E23B03 /* ContentView.swift in Sources */,
 				5DE1726C24A5074000E23B03 /* OSLogStoreTestApp.swift in Sources */,
 				5DD3A4B024C9800400DB0A7E /* OSLogStorePrinter.swift in Sources */,
@@ -214,7 +203,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DE1728224A507A900E23B03 /* OSLogStorePrinter.m in Sources */,
 				5DE1726F24A5074000E23B03 /* ContentView.swift in Sources */,
 				5DE1726D24A5074000E23B03 /* OSLogStoreTestApp.swift in Sources */,
 				5DD3A4B124C9800400DB0A7E /* OSLogStorePrinter.swift in Sources */,
@@ -353,7 +341,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.oleb.OSLogStoreTest;
 				PRODUCT_NAME = OSLogStoreTest;
 				SDKROOT = iphoneos;
-				SWIFT_OBJC_BRIDGING_HEADER = "Shared/iOS-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -378,7 +365,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.oleb.OSLogStoreTest;
 				PRODUCT_NAME = OSLogStoreTest;
 				SDKROOT = iphoneos;
-				SWIFT_OBJC_BRIDGING_HEADER = "Shared/iOS-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -406,7 +392,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.oleb.OSLogStoreTest;
 				PRODUCT_NAME = OSLogStoreTest;
 				SDKROOT = macosx;
-				SWIFT_OBJC_BRIDGING_HEADER = "Shared/macOS-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
@@ -433,7 +418,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.oleb.OSLogStoreTest;
 				PRODUCT_NAME = OSLogStoreTest;
 				SDKROOT = macosx;
-				SWIFT_OBJC_BRIDGING_HEADER = "Shared/macOS-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
