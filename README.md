@@ -4,7 +4,7 @@ Test app for evaluating if apps can access their own OSLog logs via [`OSLogStore
 
 ## iOS 14
 
-I can’t get it to work on an iOS device running iOS 14.0 beta 1–5. I can instantiate an `OSLogStore` and `OSLogEnumerator`, but the enumerator doesn’t provide any log entries (unless I’m holding it wrong), and I’m seeing this error message in the Xcode console:
+I can’t get it to work on an iOS device running iOS 14.0 beta 1–6. I can instantiate an `OSLogStore` and `OSLogEnumerator`, but the enumerator doesn’t provide any log entries (unless I’m holding it wrong), and I’m seeing this error message in the Xcode console:
 
 ```
 Error Error Domain=NSCocoaErrorDomain Code=4099
