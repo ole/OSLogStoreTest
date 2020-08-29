@@ -30,3 +30,8 @@ Apple engineers have confirmed this is a bug. I hope it will get fixed before th
 ## macOS 11.0 Big Sur
 
 The code works as expected in the macOS target.
+
+## More about OSLog in iOS 14 and macOS 11
+
+See Peter Steinberger's article: [Logging in Swift](https://steipete.com/posts/logging-in-swift/) (08/2020)
+
